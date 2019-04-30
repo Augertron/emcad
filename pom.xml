@@ -2,7 +2,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.augertron.hwee</groupId>
+	<groupId>com.augertron.emcad</groupId>
 	<artifactId>project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
@@ -37,10 +37,10 @@
 	</modules>
 
 	<properties>
-		<hwee.java.version>1.8</hwee.java.version>
-		<maven.compiler.source>${hwee.java.version}</maven.compiler.source>
-		<maven.compiler.target>${hwee.java.version}</maven.compiler.target>
-		<maven.compiler.compilerVersion>${hwee.java.version}</maven.compiler.compilerVersion>
+		<emcad.java.version>1.8</emcad.java.version>
+		<maven.compiler.source>${emcad.java.version}</maven.compiler.source>
+		<maven.compiler.target>${emcad.java.version}</maven.compiler.target>
+		<maven.compiler.compilerVersion>${emcad.java.version}</maven.compiler.compilerVersion>
 		<tycho-version>1.4.0</tycho-version>
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
 		<xtext-version>2.17.1</xtext-version>
@@ -94,7 +94,7 @@
 						<pomDependencies>consider</pomDependencies>
 						<target>
 							<artifact>
-								<groupId>com.augertron.hwee</groupId>
+								<groupId>com.augertron.emcad</groupId>
 								<artifactId>platform</artifactId>
 								<version>${project.version}</version>
 								<classifier>platform</classifier>
